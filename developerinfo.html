@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developers Info | Data Theft Prevention</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Project Info Section */
+        .project-info {
+            text-align: center;
+            padding: 40px;
+            background: linear-gradient(135deg, #007bff, #0056b3);
+            color: white;
+        }
+
+        .project-info h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        .project-info p {
+            font-size: 18px;
+        }
+
+        .project-details {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+
+        /* Developers Section */
+        .developers {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .developers h2 {
+            font-size: 26px;
+            margin-bottom: 20px;
+        }
+
+        /* Developer Card Grid */
+        .dev-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .developer {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            width: 250px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .developer:hover {
+            transform: scale(1.05);
+        }
+
+        .developer img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .developer h3 {
+            margin: 10px 0 5px;
+            font-size: 20px;
+            color: #007bff;
+        }
+
+        .developer p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+
+        .resume-btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 15px;
+            text-decoration: none;
+            background: #007bff;
+            color: white;
+            border-radius: 5px;
+            font-size: 14px;
+            transition: background 0.3s ease;
+        }
+
+        .resume-btn:hover {
+            background: #0056b3;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .dev-container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Project Info Section -->
+    <section class="project-info">
+        <h1>Data Theft Prevention & Endpoint Protection</h1>
+        <p>This project addresses the growing threat of data theft and unauthorized access via USB ports, a major vulnerability in computer systems. Attackers can exploit USB devices to introduce malware or steal data using live boot drives. The system secures USB ports by enabling or disabling them through user authentication and OTP verification via email. It features admin and user modules, time-bound OTPs, and limited attempts to prevent brute-force attacks. By combining physical control, authentication, and user-friendly security measures, the project ensures safe USB usage in organizations, minimizing the risk of breaches, data loss, and system compromise.</p>
+        <div class="project-details">
+            <p><strong>Project start Date:</strong> October 10, 2024</p>
+            <p><strong>Project end Date:</strong> March 30, 2025</p>
+            <p><strong>Project status:</strong> Completed</p>
+        </div>
+    </section>
+    <!-- Developer Team Section -->
+    <section class="developers">
+        <h2>Meet Our Developers</h2>
+        <div class="dev-container">
+            <!-- Developer 1 -->
+            <div class="developer">
+                <img src="person1.png" alt="Developer 1">
+                <h3>Supreethi</h3>
+                <p>21KB1A0574</p>
+                <p>Email: supreethikondlapudi@gmail.com</p>
+                <a href="person1.pdf" download class="resume-btn">Download Resume</a>
+            </div>
+            <!-- Developer 2 -->
+            <div class="developer">
+                <img src="person2.jpg" alt="Developer 2">
+                <h3>Gayathri</h3>
+                <p>21KB1A0575</p>
+                <p>Email: kondurugayathri934@gmailcom</p>
+                <a href="person1.pdf" download class="resume-btn">Download Resume</a>
+            </div>
+            <!-- Developer 3 -->
+            <div class="developer">
+                <img src="person3.png" alt="Developer 3">
+                <h3>Nehitha Choudhary</h3>
+                <p>21KB1A0579</p>
+                <p>Email: nehithachoudhary@gmail.com</p>
+                <a href="person1.pdf" download class="resume-btn">Download Resume</a>
+            </div>
+            <!-- Developer 4 -->
+            <div class="developer">
+                <img src="person2.jpg" alt="Developer 4">
+                <h3>Siva Gayathri</h3>
+                <p>21KB1A05A5</p>
+                <p>Email: sarah.johnson@example.com</p>
+                <a href="person1.pdf" download class="resume-btn">Download Resume</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
